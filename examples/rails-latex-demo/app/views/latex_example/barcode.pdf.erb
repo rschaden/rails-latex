@@ -8,6 +8,21 @@ More examples \& full documentation of the pst-barcode package can be found \hre
 \psbarcode{RAILS-LATEX}{includetext}{code39}
 \end{pspicture}
 
+\begin{itemize}
+  \item <%= @foo %>
+  \item <%= @bar %>
+\end{itemize}
+
+\begin{center}
+    \begin{tabularx}{\textwidth}{ | X | X | X | X | }
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & <%= @bar %> \\ \hline
+    \end{tabularx}
+\end{center}
+
 \section*{EAN-8}
 
 \begin{pspicture}(2.5,1in)

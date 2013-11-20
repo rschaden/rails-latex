@@ -3,6 +3,7 @@
 \usepackage{auto-pst-pdf}
 \usepackage{pst-barcode}
 \usepackage{hyperref}
+\usepackage{tabularx}
 
 
 \begin{document}

@@ -7,6 +7,8 @@ class LatexExampleController < ApplicationController
   end
 
   def barcode_as_string
+    @foo = "This is Foo"
+    @bar = "On the other hand, this is bar"
     @pdf=render_to_string(action: 'barcode', layout: "barcode", formats: [:pdf])
     self.content_type = 'text/html'
 
